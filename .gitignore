@@ -1,0 +1,9 @@
+# Ignorar archivos sensibles y temporales
+config/api_keys.env
+data/logs/
+data/inbox/
+.DS_Store
+node_modules/
+__pycache__/
+*.log
+.env
