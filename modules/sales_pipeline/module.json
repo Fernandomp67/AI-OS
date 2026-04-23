@@ -1,0 +1,27 @@
+{
+  "name": "Sales Pipeline Automation",
+  "version": "1.0.0",
+  "description": "Automatización de pipeline de ventas para AI-OS.",
+  "author": "Manus AI",
+  "dependencies": {
+    "python": ">=3.8",
+    "requests": ">=2.25.1"
+  },
+  "agents": [
+    "agent_sales.md"
+  ],
+  "commands": [
+    "lead_gen.md",
+    "outreach.md"
+  ],
+  "skills": [
+    "cold_email_sequence.md"
+  ],
+  "contexts": [
+    "leads.json",
+    "email_templates.md"
+  ],
+  "hooks": [
+    "post-lead-capture.js"
+  ]
+}
